@@ -1,0 +1,98 @@
+{
+    "keyboard_name": "Prime52",
+    "manufacturer": "DreaM117er",
+    "maintainer": "DreaM117er",
+    "url": "",
+    "usb":
+    {
+        "device_version": "2.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "diode_direction": "COL2ROW",
+    "features":
+    {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "split":
+    {
+        "enabled": true,
+        "soft_serial_pin": "GP0"
+    },
+    "matrix_pins":
+    {
+        "rows": ["GP27", "GP26", "GP15", "GP14"],
+        "cols": ["GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8"]
+    },
+    "layout": "LAYOUT",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0],"x":0,"y":0.75},
+                {"matrix": [0, 1],"x":1,"y":0.65},
+                {"matrix": [0, 2],"x":2,"y":0.15},
+                {"matrix": [0, 3],"x":3,"y":0},
+                {"matrix": [0, 4],"x":4,"y":0.15},
+                {"matrix": [0, 5],"x":5,"y":0.25},
+                {"matrix": [0, 6],"x":6.2,"y":0.85},
+
+                {"matrix": [4, 6],"x":11.8,"y":0.85},
+                {"matrix": [4, 5],"x":13,"y":0.25},
+                {"matrix": [4, 4],"x":14,"y":0.15},
+                {"matrix": [4, 3],"x":15,"y":0},
+                {"matrix": [4, 2],"x":16,"y":0.15},
+                {"matrix": [4, 1],"x":17,"y":0.65},
+                {"matrix": [4, 0],"x":18,"y":0.75},
+
+                {"matrix": [1, 0],"x":0,"y":1.75},
+                {"matrix": [1, 1],"x":1,"y":1.65},
+                {"matrix": [1, 2],"x":2,"y":1.15},
+                {"matrix": [1, 3],"x":3,"y":1},
+                {"matrix": [1, 4],"x":4,"y":1.15},
+                {"matrix": [1, 5],"x":5,"y":1.25},
+                {"matrix": [1, 6],"x":7.7,"y":3.35},
+
+                {"matrix": [5, 6],"x":10.3,"y":3.35},
+                {"matrix": [5, 5],"x":13,"y":1.25},
+                {"matrix": [5, 4],"x":14,"y":1.15},
+                {"matrix": [5, 3],"x":15,"y":1},
+                {"matrix": [5, 2],"x":16,"y":1.15},
+                {"matrix": [5, 1],"x":17,"y":1.65},
+                {"matrix": [5, 0],"x":18,"y":1.75},
+
+                {"matrix": [2, 0],"x":0,"y":2.75},
+                {"matrix": [2, 1],"x":1,"y":2.65},
+                {"matrix": [2, 2],"x":2,"y":2.15},
+                {"matrix": [2, 3],"x":3,"y":2},
+                {"matrix": [2, 4],"x":4,"y":2.15},
+                {"matrix": [2, 5],"x":5,"y":2.25},
+                {"matrix": [2, 6],"x":8.7,"y":3.35},
+
+                {"matrix": [6, 6],"x":9.3,"y":3.35},
+                {"matrix": [6, 5],"x":13,"y":2.25},
+                {"matrix": [6, 4],"x":14,"y":2.15},
+                {"matrix": [6, 3],"x":15,"y":2},
+                {"matrix": [6, 2],"x":16,"y":2.15},
+                {"matrix": [6, 1],"x":17,"y":2.65},
+                {"matrix": [6, 0],"x":18,"y":2.75},
+
+                {"matrix": [3, 1],"x":2.8,"y":3.45},
+                {"matrix": [3, 2],"x":4,"y":3.25},
+                {"matrix": [3, 4],"x":6.03,"y":4.15},
+                {"matrix": [3, 5],"x":8.2,"y":4.35},
+                {"matrix": [3, 6],"x":10.4,"y":4.55},
+
+                {"matrix": [7, 6],"x":7.6,"y":4.55},
+                {"matrix": [7, 5],"x":9.8,"y":4.35},
+                {"matrix": [7, 4],"x":11.97,"y":4.15},
+                {"matrix": [7, 2],"x":14,"y":3.25},
+                {"matrix": [7, 1],"x":15.2,"y":3.45}
+            ]
+        }
+    }
+}
