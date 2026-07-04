@@ -28,3 +28,6 @@
 [submodule "keyboards/handwired/choc_dactyl"]
 	path = keyboards/handwired/choc_dactyl
 	url = git@github.com:aodh66/choc_dactyl.git
+[submodule "keyboards/ferris/keymaps/aodh66"]
+	path = keyboards/ferris/keymaps/aodh66
+	url = git@github.com:aodh66/ferris_sweep.git
