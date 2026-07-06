@@ -44,6 +44,7 @@ bool process_layer_lock(uint16_t keycode, keyrecord_t* record) {
     if (keycode == QK_LAYER_LOCK) {
         if (record->event.pressed) { // The layer lock key was pressed.
             layer_lock_invert(get_highest_layer(layer_state));
+            // layer_lock_invert(get_tri_layer_lower_layer());
         }
         return false;
     }
