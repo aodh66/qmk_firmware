@@ -31,3 +31,9 @@
 [submodule "keyboards/ferris/keymaps/aodh66"]
 	path = keyboards/ferris/keymaps/aodh66
 	url = git@github.com:aodh66/ferris_sweep.git
+[submodule "modules/modules/getreuer"]
+	path = modules/modules/getreuer
+	url = https://github.com/getreuer/qmk-modules.git
+[submodule "modules/getreuer"]
+	path = modules/getreuer
+	url = https://github.com/getreuer/qmk-modules.git
